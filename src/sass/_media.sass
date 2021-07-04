@@ -1,0 +1,258 @@
+@media (max-width: 1199px)
+	.menu_item
+		padding-right: 15px
+		&_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 50px
+	.advantages
+		& .col-md-6
+			align-items: flex-start
+		&_round
+			width: 156px
+		&_descr
+			width: 100%
+		&_block
+			align-items: flex-start
+	.mobile_item
+		width: 280px
+	.footer_apps
+		& > img
+			margin-top: 12px
+			width: 65px
+			height: 17px
+
+@media (max-width: 991px)
+	.menu
+		padding: 13px 50px
+		&_item
+			padding-right: 9px
+		&_link
+			font-size: 12px
+	.subheader
+		&_logo
+			margin-top: 20px
+			& > img
+					width: 220px
+		&_official
+			font-size: 12px
+		&_btn
+			width: 140px
+			margin-top: 25px
+			height: 36px
+	.advantages
+		&_round
+			height: 99px
+	.mobile_item
+		width: 224px
+		height: 219px
+		&_subtitle
+			padding-top: 60px
+			font-size: 19px
+		&_plus
+			transform: inherit
+
+	.car_white_img
+		width: 100%
+
+@media (max-width: 767px)
+	header > nav
+		height: 32px
+	.menu
+		flex-direction: column
+		justify-content: flex-start
+		position: absolute
+		left: -100%
+		padding: 25px
+		border: none
+		background-color: #000000a9
+		height: 100vh
+		width: 50%
+		transition: .5s all
+		&_active
+			left: 0
+		&_item
+			padding: 10px 0
+		&_link
+			font-size: 16px
+	.subheader
+		top: 32px
+		height: 62px
+		&_official
+			display: none
+		&_logo
+			margin-top: 20px
+			& > img 
+				width: 190px
+		&_call
+			display: none
+		&_phone
+			position: absolute
+			top: 10px
+			right: 0
+			font-size: 12px
+		&_btn
+			position: absolute
+			bottom: -5px
+			right: 0
+			margin-top: 20px
+			width: 110px
+			height: 22px
+			font-size: 10px
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		height: 10px
+		width: 26px
+		span
+			display: block
+			margin-bottom: 2px
+			width: 26px
+			height: 2px
+			background-color: #fff
+			transition: .3s all
+		&_active
+			span
+				margin-bottom: -2px
+				transition: .3s all
+				&:nth-child(1)
+					transform: translateY(4px) rotate(45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(4px)  rotate(-45deg)
+	.promo
+		padding: 139px 0 0 0
+		min-height: 431px
+		&_header
+			font-size: 30px
+		&_subheader
+			font-size: 20px
+		&_descr
+			display: none
+		&_btn
+			margin: 35px 0 72px
+			height: 50px;
+			width: 210px
+			border-radius: 4px
+	.title
+		margin-top: 18px
+	.advantages
+		padding: 20px 0 38px
+		&_block
+			margin-top: 24px
+			flex-direction: column
+			align-items: center
+		&_round
+			margin: 0
+			width: 100px
+			height: 100px
+		&_descr
+			margin-top: 24px
+
+	.mobile
+		min-height: auto
+		&_item
+			width: 169px
+			height: 169px
+			&_subtitle
+				padding-top: 52px
+				font-size: 14px
+	.car
+		min-height: 393px
+	.require
+		&_title
+			font-size: 16px
+		&_list > li
+			font-size: 14px
+	.map
+		min-height: 360px
+	.footer
+		&_cols
+			flex-direction: column
+		&_icons, &_navs, &_apps
+			width: 100%
+		&_navs
+			order: -1
+		&_icons
+			justify-content: center
+			margin-top: 16.6px
+		&_apps
+			justify-content: center
+			margin-bottom: 30px
+			margin-top: 19px
+
+
+@media (max-width: 575px)
+	.subheader
+		&_logo
+			& > img
+				width: 130px
+				height: 15px
+		&_official
+			display: none
+		&_call
+			display: none
+		&_phone
+			right: 10px
+			font-size: 12px
+		&_btn
+			right: 10px
+	.mobile
+		&_item
+			margin: 30px auto 0
+			width: 290px
+			height: 254px
+			&_plus
+				transform: translateX(-10px)
+			&_subtitle
+				padding-top: 80px
+				font-size: 18px
+	.black
+		height: 393px
+	.title
+		font-size: 16px
+		&_white
+			display: none
+		&_sub
+			display: none
+		&--footer
+			display: block
+			margin-top: 0
+	.car
+		&_white
+			&_img
+				display: block
+				margin: 4px auto
+				width: 300px
+				height: 190px
+		&_descr
+			display: none
+			&_white
+				display: block
+				position: absolute
+				top: 215
+				left: 50%
+				transform: translateX(-50%)
+				z-index: 100
+				color: #fff
+				text-align: center
+				font-size: 17px
+	.advantages
+		&_title
+			font-size: 15px
+	.badge_white
+		top: 25px
+	.require
+		padding: 22px 0 30px
+	.map
+		padding-top: 60px
+		background-size: 240%
